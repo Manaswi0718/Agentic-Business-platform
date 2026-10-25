@@ -28,7 +28,11 @@ Founder ──chat──> Udyam Launchpad ──ComplianceRequest──> Complia
 | Udyam Compliance Engine | `@udyam-compliance-eng` | `agent1q2y5dmx7aczz6fd3rnpyrn7jdmnrnmgpmvfdez7sgp9ywsckjnr4x7sstnr` | [open profile](https://agentverse.ai/agents/details/agent1q2y5dmx7aczz6fd3rnpyrn7jdmnrnmgpmvfdez7sgp9ywsckjnr4x7sstnr/profile) |
 | Customer Care Autopilot | `@customer-care-autopi` | `agent1qwy5tfsnn5vlyt49x4qsxqsfl03vzsu4n7gc352u22gtyvu2t9hnk3a6f6w` | [open profile](https://agentverse.ai/agents/details/agent1qwy5tfsnn5vlyt49x4qsxqsfl03vzsu4n7gc352u22gtyvu2t9hnk3a6f6w/profile) |
 
-**Demo chat:** [ASI:One shared chat](SHARED_CHAT_LINK_HERE) · **Demo video:** [YouTube](VIDEO_LINK_HERE)
+**Demo chat:** [ASI:One shared chat]1.Udyam launch pad(https://asi1.ai/invite?channelInviteKey=GAYvxkgDeNAnQ53Zjv0MesWF2mxCjsvrW9xAQxlL43w&utm_source=share&utm_medium=desktop&utm_campaign=channel_invite)
+2·customer care autopilot (https://asi1.ai/invite?channelInviteKey=EotIfs1s2LwAfHuChHGJeUHHEHMS71V2DFBmEhDaJfk&utm_source=share&utm_medium=desktop&utm_campaign=channel_invite)
+3.Udyam Compliance Engine (https://asi1.ai/invite?channelInviteKey=QZPfadz3KYPkXXmFu9-CAyYB1K0IdiJzAQYk74hsjQQ&utm_source=share&utm_medium=desktop&utm_campaign=channel_invite)
+**Demo video:** :https://drive.google.com/file/d/1LICdXnlPm-iJHry6QuggG5IaTirRQlN8/view?usp=drivesdk.
+**Ppt Link**:https://1drv.ms/p/c/f06396aca07fefbd/IQCMRqMBYRN9RrbshQvH87FFAXcK_8ak87wf3-aeHry2MrM?e=n4sQ65
 
 ### Try it in 1 minute
 Open [asi1.ai](https://asi1.ai) and send:

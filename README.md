@@ -20,15 +20,21 @@ Founder ──chat──> Udyam Launchpad ──ComplianceRequest──> Complia
 
 **Monetisation:** registration guidance is free (social good). Autopilot is free for 25 orders/month; **Autopilot Pro** (₹99 / 30 days, or 1 FET) unlocks unlimited orders, paid through the Fetch.ai Agent Payment Protocol. Customers pay shops directly by UPI (zero fees), so the shop keeps 100% of its revenue.
 
-## Live agents
+## Live agents (hosted on Agentverse, chat on ASI:One)
 
-| Agent | ASI:One handle | Agentverse profile |
-|---|---|---|
-| Udyam Launchpad | `@udyam-launchpad` | [profile](https://agentverse.ai/agents/details/AGENT_ADDRESS_HERE/profile) |
-| Udyam Compliance Engine | `@udyam-compliance-engine` | [profile](https://agentverse.ai/agents/details/AGENT_ADDRESS_HERE/profile) |
-| Customer Care Autopilot | `@customer-care-autopilot` | [profile](https://agentverse.ai/agents/details/AGENT_ADDRESS_HERE/profile) |
+| Agent | ASI:One handle | Agent address | Agentverse profile |
+|---|---|---|---|
+| Udyam Launchpad | `@udyam-launchpad` | `agent1qts648405s2mcqa7f4cdxya6vetqkpu8ldzjm5mqf7a0wjc57f3fwvh03rp` | [open profile](https://agentverse.ai/agents/details/agent1qts648405s2mcqa7f4cdxya6vetqkpu8ldzjm5mqf7a0wjc57f3fwvh03rp/profile) |
+| Udyam Compliance Engine | `@udyam-compliance-eng` | `agent1q2y5dmx7aczz6fd3rnpyrn7jdmnrnmgpmvfdez7sgp9ywsckjnr4x7sstnr` | [open profile](https://agentverse.ai/agents/details/agent1q2y5dmx7aczz6fd3rnpyrn7jdmnrnmgpmvfdez7sgp9ywsckjnr4x7sstnr/profile) |
+| Customer Care Autopilot | `@customer-care-autopi` | `agent1qwy5tfsnn5vlyt49x4qsxqsfl03vzsu4n7gc352u22gtyvu2t9hnk3a6f6w` | [open profile](https://agentverse.ai/agents/details/agent1qwy5tfsnn5vlyt49x4qsxqsfl03vzsu4n7gc352u22gtyvu2t9hnk3a6f6w/profile) |
 
 **Demo chat:** [ASI:One shared chat](SHARED_CHAT_LINK_HERE) · **Demo video:** [YouTube](VIDEO_LINK_HERE)
+
+### Try it in 1 minute
+Open [asi1.ai](https://asi1.ai) and send:
+- `@udyam-launchpad I want to start a home bakery in Bengaluru, about 30k sales a month on Instagram`
+- `@udyam-compliance-eng hi` → menu card → *Check my registrations* or *Check a website*
+- `@customer-care-autopi shop DEMO` → menu carousel → ask `how much is the brownie box?` → `order`
 
 ## Repository layout
 
@@ -59,9 +65,9 @@ For each folder below: **agentverse.ai → Agents → Launch an Agent → Create
 
 | Order | Name (use as handle) | Code |
 |---|---|---|
-| 1 | `udyam-compliance-engine` | `udyam_compliance_engine/agent.py` |
-| 2 | `customer-care-autopilot` | `customer_care_autopilot/agent.py` |
-| 3 | `udyam-launchpad` | `udyam_launchpad/agent.py` |
+| 1 | `udyam-compliance-engine` (handle `@udyam-compliance-eng`) | `udyam_compliance_engine/agent.py` |
+| 2 | `customer-care-autopilot` (handle `@customer-care-autopi`) | `customer_care_autopilot/agent.py` |
+| 3 | `udyam-launchpad` (handle `@udyam-launchpad`) | `udyam_launchpad/agent.py` |
 
 Copy each agent's address (`agent1q...`) from its page or from the startup log line.
 
@@ -104,12 +110,12 @@ The Autopilot wallet receives FET. To pay as a buyer, fund your ASI:One wallet f
 3. Tap **FSSAI** → detail card with documents, fee, penalty, source → **Mark as done**.
 4. `is udyam-registration.org legit?` → 🚨 look-alike warning + official portal.
 5. `set up my front desk` → Launchpad asks Autopilot → storefront code + PIN.
-6. `@customer-care-autopilot setup <CODE> <PIN>` → setup form → preview → **Go live**.
-7. As a customer: `shop <CODE>` → `how much is the brownie box?` → `do you make sugar-free cakes?` (escalated to the owner, owner answers, customer gets the reply, answer saved as a fact).
+6. `@customer-care-autopi setup <CODE> <PIN>` → setup form → preview → **Go live**.
+7. As a customer: `@customer-care-autopi shop <CODE>` → `how much is the brownie box?` → `do you make sugar-free cakes?` (escalated to the owner, owner answers, customer gets the reply, answer saved as a fact).
 8. `order` → form → review with exact totals → UPI link + QR → **I've paid** → owner **Yes, received** → receipt.
 9. Owner: `upgrade` → Payment Protocol request (card / FET) → Pro activated after verification.
 
-Quick test without the hand-off: `@customer-care-autopilot shop DEMO`.
+Quick test without the hand-off: `@customer-care-autopi shop DEMO`. Owner side of the demo shop: `@customer-care-autopi setup DEMO 2026`, then `dashboard`.
 
 ---
 
@@ -120,6 +126,13 @@ Quick test without the hand-off: `@customer-care-autopilot shop DEMO`.
 - Card selections handled both as JSON (direct @mention) and as planner prose.
 - Payments: server-side verification (Stripe session status, amount, currency and buyer; FET tx recipient, sender and amount on-chain), idempotent on transaction id, `CancelPayment` on failure.
 - Order validation: quantities 0–50, minimum order, delivery area, phone number.
+
+## Team
+- Palle Reenu · Nitte Meenakshi Instiute Of Technology 
+- Harshita V K · Nitte Meenakshi Instiute Of Technology  
+- C.Manaswi · Nitte Meenakshi Instiute Of Technology 
+
+Built for Fetch-A-Thon 3.0 (Fetch.ai Innovation Lab), October 2026. Licensed under MIT.
 
 ## Sources used by the rules (rules version 2026-10-24)
 Udyam portal (udyamregistration.gov.in) · MSME limits effective 1 Apr 2025 (micro: investment ≤ ₹2.5 cr, turnover ≤ ₹10 cr) · CGST Act s.22/24/25/122 and Notification 34/2023-CT · FSSAI order 13 Mar 2026 (Basic Registration up to ₹1.5 cr, State licence up to ₹50 cr, from 1 Apr 2026) · FSS Act s.63 · Legal Metrology Act 2009 · EPF (20+), ESI (10+) · Trade Marks fee schedule.

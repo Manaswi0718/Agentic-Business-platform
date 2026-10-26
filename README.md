@@ -31,8 +31,8 @@ Founder ──chat──> Udyam Launchpad ──ComplianceRequest──> Complia
 **Demo chat:** [ASI:One shared chat]1.Udyam launch pad(https://asi1.ai/invite?channelInviteKey=GAYvxkgDeNAnQ53Zjv0MesWF2mxCjsvrW9xAQxlL43w&utm_source=share&utm_medium=desktop&utm_campaign=channel_invite)
 2·customer care autopilot (https://asi1.ai/invite?channelInviteKey=EotIfs1s2LwAfHuChHGJeUHHEHMS71V2DFBmEhDaJfk&utm_source=share&utm_medium=desktop&utm_campaign=channel_invite)
 3.Udyam Compliance Engine (https://asi1.ai/invite?channelInviteKey=QZPfadz3KYPkXXmFu9-CAyYB1K0IdiJzAQYk74hsjQQ&utm_source=share&utm_medium=desktop&utm_campaign=channel_invite)
-**Demo video:** :https://drive.google.com/file/d/1LICdXnlPm-iJHry6QuggG5IaTirRQlN8/view?usp=drivesdk.
-**Ppt Link**:https://1drv.ms/p/c/f06396aca07fefbd/IQCMRqMBYRN9RrbshQvH87FFAXcK_8ak87wf3-aeHry2MrM?e=n4sQ65
+**Demo video:** :https://youtu.be/qgnSfB1yCzQ.
+**Ppt Link**:https://docs.google.com/presentation/d/1DamJJWLlkGAEgA1GlA-SP9XdF9NkSJsN/edit?usp=drivesdk&ouid=117615334798774580852&rtpof=true&sd=true
 
 ### Try it in 1 minute
 Open [asi1.ai](https://asi1.ai) and send:
